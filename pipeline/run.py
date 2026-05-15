@@ -7,7 +7,7 @@ from datetime import datetime
 from langchain_openai import AzureChatOpenAI, AzureOpenAIEmbeddings
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_postgres.vectorstores import PGVector
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 logging.basicConfig(level=logging.INFO)
 
